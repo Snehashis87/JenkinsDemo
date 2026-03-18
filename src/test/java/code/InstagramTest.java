@@ -1,14 +1,11 @@
 package code;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class InstagramTest {
+public class InstagramTest extends BaseClass{
 	
 	@Test
 	public void LoginTests() {
-		WebDriver driver = new ChromeDriver();
 
         // Open Google
         driver.get("https://www.instagram.com/");

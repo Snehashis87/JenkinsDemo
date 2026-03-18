@@ -1,16 +1,11 @@
 package code;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class GoogleTitleTest {
+public class GoogleTitleTest extends BaseClass{
 
 	@Test
     public void LoginTest() {
-
-        // Launch Chrome Browser
-        WebDriver driver = new ChromeDriver();
 
         // Open Google
         driver.get("https://www.google.com");
